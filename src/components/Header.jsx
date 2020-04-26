@@ -14,7 +14,9 @@ const Header = () => {
         <AppBar position='static' variant='outlined' className={classes.appBar}>
             <Toolbar>
                 <img className={classes.logo} src={logoImg} alt='Logo' />
-                <Typography variant='h4'>Microsoft</Typography>
+                <Typography color='primary' variant='h4'>
+                    Microsoft
+                </Typography>
             </Toolbar>
         </AppBar>
     );
