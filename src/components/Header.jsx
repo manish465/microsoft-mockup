@@ -1,10 +1,9 @@
 import React from "react";
-import { AppBar, makeStyles, Toolbar, Typography } from "@material-ui/core";
-import logoImg from "../assets/logo/logo.png";
+import { AppBar, makeStyles, Toolbar } from "@material-ui/core";
+import Logo from "./Logo/Logo";
 
 const useStyles = makeStyles({
     appBar: { background: "transparent" },
-    logo: { margin: "10px" },
 });
 
 const Header = () => {
@@ -13,10 +12,7 @@ const Header = () => {
     return (
         <AppBar position='static' variant='outlined' className={classes.appBar}>
             <Toolbar>
-                <img className={classes.logo} src={logoImg} alt='Logo' />
-                <Typography color='primary' variant='h4'>
-                    Microsoft
-                </Typography>
+                <Logo />
             </Toolbar>
         </AppBar>
     );
