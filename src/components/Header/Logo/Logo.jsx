@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, makeStyles, IconButton } from "@material-ui/core";
-import logoImg from "../../assets/logo/logo.png";
+import logoImg from "../../../assets/logo/logo.png";
 
 const useStyles = makeStyles({ logo: { margin: "10px" } });
 
