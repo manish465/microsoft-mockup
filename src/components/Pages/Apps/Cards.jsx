@@ -78,7 +78,10 @@ const Cards = () => {
                         <Typography color='primary'>
                             Downloading{downloadText}
                         </Typography>
-                        <CircularProgress variant='indeterminate' />
+                        <CircularProgress
+                            color='secondary'
+                            variant='indeterminate'
+                        />
                     </Backdrop>
                 </Typography>
             </Grid>
