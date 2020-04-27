@@ -1,9 +1,10 @@
 import React from "react";
+
 import { Typography, Grid, makeStyles, IconButton } from "@material-ui/core";
 
 const useStyles = makeStyles({
     bottomBar: {
-        transform: "translate(0px,280px)",
+        transform: "translate(0px,210px)",
     },
 });
 

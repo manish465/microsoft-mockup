@@ -1,10 +1,11 @@
 import React from "react";
+
 import { Typography, Grid, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
     options: {
         width: "200px",
-        transform: "translate(50px,200px)",
+        transform: "translate(50px,150px)",
     },
 });
 
