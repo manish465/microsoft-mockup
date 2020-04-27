@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Typography, Grid, makeStyles, IconButton } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
     bottomBar: {
@@ -17,22 +18,22 @@ const BottomNavigationBar = () => {
                 className={classes.bottomBar}
                 justify='space-around'
                 container>
-                <IconButton>
+                <IconButton component={Link} to='/feature'>
                     <Typography variant='h5' color='primary'>
                         Feature
                     </Typography>
                 </IconButton>
-                <IconButton>
+                <IconButton component={Link} to='/apps'>
                     <Typography variant='h5' color='primary'>
                         Apps
                     </Typography>
                 </IconButton>
-                <IconButton>
+                <IconButton component={Link} to='/computers'>
                     <Typography variant='h5' color='primary'>
                         Computers
                     </Typography>
                 </IconButton>
-                <IconButton>
+                <IconButton component={Link} to='/support'>
                     <Typography variant='h5' color='primary'>
                         Support
                     </Typography>

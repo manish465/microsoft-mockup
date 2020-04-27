@@ -2,6 +2,7 @@ import React from "react";
 
 import { Typography, makeStyles, Button } from "@material-ui/core";
 import { ArrowForward } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
     caption: {
@@ -30,10 +31,16 @@ const Body = () => {
                 color='primary'>
                 Keep getting better
             </Typography>
-            <Button variant='contained' className={classes.button1}>
+            <Button
+                component={Link}
+                to='/update'
+                variant='outlined'
+                className={classes.button1}>
                 <Typography color='primary'>Update now</Typography>
             </Button>
             <Button
+                component={Link}
+                to='/feature'
                 endIcon={<ArrowForward color='primary' />}
                 className={classes.button2}>
                 <Typography color='primary'>Learn more</Typography>
