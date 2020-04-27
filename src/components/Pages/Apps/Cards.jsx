@@ -11,6 +11,7 @@ import {
     CircularProgress,
 } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import Typed from "react-typed";
 
 const useStyles = makeStyles((theme) => ({
     card: {
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: "20px",
         width: "552px",
         height: "248px",
-        background: "#535353",
+        background: "rgb(83,83,83,0.7)",
         borderRadius: "40px",
     },
     text: {
@@ -48,6 +49,8 @@ const Cards = () => {
         setOpen(!open);
     };
 
+    const downloadText = <Typed loop strings={["", ".", "..", "..."]} />;
+
     const card = data.map((item, key) => (
         <Grid container className={classes.card} key={key}>
             <Grid item>
@@ -72,6 +75,9 @@ const Cards = () => {
                         className={classes.backdrop}
                         open={open}
                         onClick={handleClose}>
+                        <Typography color='primary'>
+                            Downloading{downloadText}
+                        </Typography>
                         <CircularProgress variant='indeterminate' />
                     </Backdrop>
                 </Typography>
