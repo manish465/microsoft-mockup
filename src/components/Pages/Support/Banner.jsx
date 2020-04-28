@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     banner: {
         padding: "50px",
         marginTop: "20px",
-        height: "100vh",
+        height: "150px",
         backgroundImage: `url(${bgImg})`,
         backgroundRepeat: "no-repeat",
     },
