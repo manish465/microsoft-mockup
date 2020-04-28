@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "./Banner";
 import Header from "../../Header/Header";
 
 import bgImg from "../../../assets/feature/bgImg.png";
@@ -21,6 +22,7 @@ const Feature = () => {
     return (
         <Box className={classes.feature}>
             <Header />
+            <Banner />
         </Box>
     );
 };
