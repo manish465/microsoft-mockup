@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Header/Header";
 import Banner from "./Banner";
+import Cards from "./Cards";
 
 import bgImg from "../../../assets/update/Background.png";
 
@@ -20,6 +21,7 @@ const UpdateNow = () => {
         <Box className={classes.update}>
             <Header />
             <Banner />
+            <Cards />
         </Box>
     );
 };
