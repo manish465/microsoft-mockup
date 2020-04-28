@@ -8,8 +8,9 @@ import { Box, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
     apps: {
-        height: "100vh",
         background: `url(${bgImg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
     },
 });
 

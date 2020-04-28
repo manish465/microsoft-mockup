@@ -10,7 +10,7 @@ import { Box, makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
     update: {
         backgroundImage: `url(${bgImg})`,
-        height: "100vh",
+        backgroundSize: "auto",
     },
 });
 
