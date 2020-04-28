@@ -21,11 +21,11 @@ const Banner = () => {
             </Typography>
             <Typography
                 style={{ marginLeft: "400px" }}
-                variant='h1'
+                variant='h2'
                 color='secondary'>
                 Features of Microsoft
                 <ArrowForwardIcon
-                    style={{ marginLeft: "10px", fontSize: "100px" }}
+                    style={{ marginLeft: "10px", fontSize: "50px" }}
                 />
             </Typography>
         </Box>
