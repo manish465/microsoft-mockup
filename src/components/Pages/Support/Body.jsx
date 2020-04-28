@@ -6,6 +6,7 @@ import data from "./data";
 
 const useStyles = makeStyles({
     heading: {
+        boxShadow: "10px 10px 8px rgb(255,255,255,0.2)",
         padding: "5px",
         margin: "auto",
         maxWidth: "fit-content",
