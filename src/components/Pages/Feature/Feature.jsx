@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import Cards from "./Cards";
 import Header from "../../Header/Header";
 
 import bgImg from "../../../assets/feature/bgImg.png";
@@ -23,6 +24,7 @@ const Feature = () => {
         <Box className={classes.feature}>
             <Header />
             <Banner />
+            <Cards />
         </Box>
     );
 };
