@@ -11,14 +11,18 @@ const Tabs = () => {
     return (
         <Grid container spacing={6}>
             <Grid item>
-                <IconButton>
-                    <GitHub color='primary' />
-                </IconButton>
+                <a href='https://github.com/manish465/microsoft-mockup'>
+                    <IconButton>
+                        <GitHub color='primary' />
+                    </IconButton>
+                </a>
             </Grid>
             <Grid item>
-                <IconButton>
-                    <Search color='primary' />
-                </IconButton>
+                <a href='https://www.google.com/'>
+                    <IconButton>
+                        <Search color='primary' />
+                    </IconButton>
+                </a>
             </Grid>
             <Grid item>
                 <IconButton>
