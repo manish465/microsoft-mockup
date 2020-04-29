@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/microsoft-mockup/static/css/main.abaadb21.chunk.css",
+    "main.js": "/microsoft-mockup/static/js/main.8eff6188.chunk.js",
+    "main.js.map": "/microsoft-mockup/static/js/main.8eff6188.chunk.js.map",
+    "runtime-main.js": "/microsoft-mockup/static/js/runtime-main.7e361710.js",
+    "runtime-main.js.map": "/microsoft-mockup/static/js/runtime-main.7e361710.js.map",
+    "static/js/2.f115b878.chunk.js": "/microsoft-mockup/static/js/2.f115b878.chunk.js",
+    "static/js/2.f115b878.chunk.js.map": "/microsoft-mockup/static/js/2.f115b878.chunk.js.map",
+    "index.html": "/microsoft-mockup/index.html",
+    "precache-manifest.39ce8c91f261cba6226729e3f6db7a3c.js": "/microsoft-mockup/precache-manifest.39ce8c91f261cba6226729e3f6db7a3c.js",
+    "service-worker.js": "/microsoft-mockup/service-worker.js",
+    "static/css/main.abaadb21.chunk.css.map": "/microsoft-mockup/static/css/main.abaadb21.chunk.css.map",
+    "static/js/2.f115b878.chunk.js.LICENSE.txt": "/microsoft-mockup/static/js/2.f115b878.chunk.js.LICENSE.txt",
+    "static/media/Background.png": "/microsoft-mockup/static/media/Background.f86da796.png",
+    "static/media/RE4np58.png": "/microsoft-mockup/static/media/RE4np58.5972900b.png",
+    "static/media/RE4u1kQ.png": "/microsoft-mockup/static/media/RE4u1kQ.3e6bfc2d.png",
+    "static/media/RE4u6wn.png": "/microsoft-mockup/static/media/RE4u6wn.0f111c23.png",
+    "static/media/RE4u99y.png": "/microsoft-mockup/static/media/RE4u99y.25653f43.png",
+    "static/media/RE4ubMP.png": "/microsoft-mockup/static/media/RE4ubMP.bcff3b7c.png",
+    "static/media/Surface_Home_Mosaic_Block1_image1_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block1_image1_V3.f2a30910.png",
+    "static/media/Surface_Home_Mosaic_Block1_image2_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block1_image2_V3.c7867789.png",
+    "static/media/Surface_Home_Mosaic_Block1_image3_NSS_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block1_image3_NSS_V3.12b54fee.png",
+    "static/media/Surface_Home_Mosaic_Block1_image4_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block1_image4_V3.6e3859f5.png",
+    "static/media/Surface_Home_Mosaic_Block3_image1_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block3_image1_V3.0cd69016.png",
+    "static/media/Surface_Home_Mosaic_Block3_image2_ACC_V3.png": "/microsoft-mockup/static/media/Surface_Home_Mosaic_Block3_image2_ACC_V3.547f3da4.png",
+    "static/media/bannerBg.png": "/microsoft-mockup/static/media/bannerBg.f35b12e8.png",
+    "static/media/bg.png": "/microsoft-mockup/static/media/bg.a256a985.png",
+    "static/media/bgImg.png": "/microsoft-mockup/static/media/bgImg.d87a8807.png",
+    "static/media/img1.png": "/microsoft-mockup/static/media/img1.a0620ea7.png",
+    "static/media/img3.png": "/microsoft-mockup/static/media/img3.e5491ffe.png",
+    "static/media/img4.png": "/microsoft-mockup/static/media/img4.880353f9.png",
+    "static/media/img6.png": "/microsoft-mockup/static/media/img6.0c970327.png",
+    "static/media/img7.png": "/microsoft-mockup/static/media/img7.baf82a2d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e361710.js",
+    "static/js/2.f115b878.chunk.js",
+    "static/css/main.abaadb21.chunk.css",
+    "static/js/main.8eff6188.chunk.js"
+  ]
+}
